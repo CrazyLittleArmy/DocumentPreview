@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-    <title>思维实创文件预览系统</title>
+    <title>可劲优秀吧</title>
     <link rel="stylesheet" href="css/viewer.min.css">
     <link rel="stylesheet" href="css/loading.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,8 +14,7 @@
 
 <body>
 <h1>文件预览项目测试界面</h1>
-<h4 style="color:red;"> 本项目为加快同一文件的预览访问速度已加入缓存，请不要上传同名文件，请预览确认文件名称唯一；预览需要时间做文件转换，请耐心等待！正在进行开发转换任务队列，敬请期待···· </h4>
-<div class="panel-group" id="accordion">
+ <div class="panel-group" id="accordion">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h4 class="panel-title">
@@ -182,6 +181,12 @@ window.open('http://127.0.0.1:8012/picturesPreview?urls='+encodeURIComponent(fil
             });
         });
     });
+</script>
+<script>
+    var fun1=function(){
+        $('#table').bootstrapTable('refresh', {})
+    }
+    setInterval(fun1,30000); //设置30秒自动刷新文件列表
 </script>
 </body>
 </html>
