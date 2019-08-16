@@ -4,8 +4,8 @@ FLAG=
 OFFICE_HOME=
 DOCUMENTPREVIEW_BIN_FOLDER=$(cd "$(dirname "$0")";pwd)
 export DOCUMENTPREVIEW_BIN_FOLDER=$DOCUMENTPREVIEW_BIN_FOLDER
-cd $KKFILEVIEW_BIN_FOLDER
-echo "Using KKFILEVIEW_BIN_FOLDER $KKFILEVIEW_BIN_FOLDER"
+cd $DOCUMENTPREVIEW_BIN_FOLDER
+echo "Using DOCUMENTPREVIEW_BIN_FOLDER $DOCUMENTPREVIEW_BIN_FOLDER"
 grep 'office\.home' ../conf/application.properties | grep '!^#'
 if [ $? -eq 0 ]; then
   echo "Using customized office.home"
