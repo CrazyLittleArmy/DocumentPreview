@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <link rel="icon" type="image/x-icon" href="images/logo.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
     <style type="text/css">
         body{
             margin: 0 auto;

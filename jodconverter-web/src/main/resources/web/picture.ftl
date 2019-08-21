@@ -5,6 +5,8 @@
     <title>图片预览图</title>
     <link rel="stylesheet" href="css/viewer.min.css">
     <link rel="icon" type="image/x-icon" href="images/logo.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
     <style>
         * { margin: 0; padding: 0;}
         #dowebok { width: 800px; margin: 0 auto; font-size: 0;}
