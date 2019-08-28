@@ -25,7 +25,7 @@ else
     echo "Detected office component has been installed in $OFFICE_HOME"
   fi
 fi
-echo "Starting kkFileView..."
+echo "Starting DocumentPreview..."
 echo "Please check log file for more information"
 nohup  java -Dfile.encoding=UTF-8 -Dsun.java2d.cmm=sun.java2d.cmm.kcms.KcmsServiceProvider -Dspring.config.location=../conf/application.properties -jar DocumentPreview-2.1.2.jar > ../log/DocumentPreview.log 2>&1 &
 

@@ -7,19 +7,19 @@
     <style type="text/css">
         body{
             margin: 0 auto;
-            width:900px;
+            width:360px;
             background-color: #CCB;
         }
         .container{
-            width: 700px;
-            height: 700px;
+            width: 180 px;
+            height: auto;
             margin: 0 auto;
         }
         img{
-            width:auto;
+            width:160 px;
             height:auto;
             max-width:100%;
-            max-height:100%;
+            max-height:60%;
             padding-bottom: 36px;
         }
         span{
